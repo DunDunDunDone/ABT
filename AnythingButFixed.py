@@ -322,9 +322,9 @@ class explosion(Turtle):
         self.pencolor((0, 255, 0))
         self.radius = radius
         self.shape('circle')
-        self.explode(1)
         self.btype = 'regular'
         self.damage = damage
+        self.explode(1)
 
     def explode(self, radius, hitenemies = []):
         damagedenemies = list(hitenemies)
